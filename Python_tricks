@@ -1,0 +1,23 @@
+# convert index into column
+
+df.reset_index()
+
+# reset value in some condition
+
+ d.sales[d.sales==24] = 100
+ d.loc[d.sales == 12, 'sales'] = 99
+ d.sales = d.sales.replace(23, 24)
+ 
+ 
+# selcet multiple column in dataframe
+
+df.loc[:,['col1','col2']]
+
+# rename series index value by dic
+twelve = Top15.rename(index = ContinentDict)
+	
+# reorder index by another series index
+twelve = Top15.rename(index = eleven.index)
+
+# rename series index name
+twelve.index.names = ['Continent']
