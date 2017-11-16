@@ -82,4 +82,9 @@ cp -r  jet_audit_20170828 jet_audit_20170930
 # change file name
 mv HENRY_20170331.sql HENRY_20170828.sql
 
+# delete untrack file from local branch
+Step 1 is to show what will be deleted by using the -n option:
+git clean -n
 
+Clean Step - beware: this will delete files:
+git clean -f
