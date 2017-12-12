@@ -88,3 +88,7 @@ git clean -n
 
 Clean Step - beware: this will delete files:
 git clean -f
+
+
+# Delete both remote and local branch 
+git push -d <remote_name> <branch_name>
