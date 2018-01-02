@@ -108,3 +108,6 @@ git clean -f
 
 #Or untracked directories (e.g., new or automatically generated directories):
 git clean -fd
+
+#To update the local list of remote branches:
+git remote update origin --prune
